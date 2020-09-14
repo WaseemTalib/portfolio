@@ -56,6 +56,26 @@ class App extends Component {
           window.location.replace('https://waseemtalib.github.io/social-feed/');
           return null;
         }} />
+        <Route path='/geniversity' component={() => {
+          window.location.replace('http://geniversity.herokuapp.com/community');
+          return null;
+        }} />
+        <Route path='/demo' component={() => {
+          window.location.replace('http://waseemtalib.github.io/demo/');
+          return null;
+        }} />
+        <Route path='/client' component={() => {
+          window.location.replace('http://waseemtalib.github.io/sample-client');
+          return null;
+        }} />
+        <Route path='/smash' component={() => {
+          window.location.replace('http://smash-codes.web.app');
+          return null;
+        }} />
+        <Route path='/venue' component={() => {
+          window.location.replace('http://waseem-venue.web.app');
+          return null;
+        }} />
 
       </BrowserRouter>);
   }
