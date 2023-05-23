@@ -4,7 +4,7 @@ const Footer = () => {
     return(
         <footer>
         <hr />
-        <p>2019 copyright. All Rights Reserved.</p>
+        <p>{new Date().getFullYear()} Copyright. All Rights Reserved.</p>
     </footer>
     )
 }

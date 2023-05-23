@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React from 'react';
 import imgDotted from '../img/dotted-shape.png'
 import imgProfile from '../img/profile.jpeg'
 import Footer from './Footer';
@@ -9,13 +9,10 @@ import Work from './Work';
 import Contact from './Contact';
 import Skills from './Skills';
 
+const Landing = () => {
 
-
-class landing extends Component {
-
-    render() {
-
-        return <div>
+    return (
+        <div>
             <Navbar />
             <Header name={imgProfile} />
             <About name={imgDotted} />
@@ -24,7 +21,6 @@ class landing extends Component {
             <Contact />
             <Footer />
         </div>
-
-    }
+    )
 }
-export default landing;
+export default Landing;

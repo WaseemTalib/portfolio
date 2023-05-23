@@ -1,75 +1,98 @@
 import React, { Component } from 'react';
-import Card from './Card';
-import img1 from '../img/booking.png';
-import img2 from '../img/natours.png';
-import img3 from '../img/bookcon.png';
-import img4 from '../img/trillo.png';
-import img5 from '../img/budgety.png';
-import img6 from '../img/dice.png';
-import img7 from '../img/drum.png';
-import img8 from '../img/psd.png';
-import img9 from '../img/simon.png';
-import img10 from '../img/social.png';
-import img11 from '../img/geniversity.png';
-import img12 from '../img/demo.png';
-import img13 from '../img/sample-client.png';
-import img14 from '../img/smash.png';
-import img15 from '../img/venue.png';
+import Card from './Card.jsx';
+import booking from '../img/booking.png';
+import natours from '../img/natours.png';
+import trillo from '../img/trillo.png';
+import budgety from '../img/budgety.png';
+import dice from '../img/dice.png';
+import drum from '../img/drum.png';
+import smash from '../img/smash.png';
+import simon from '../img/simon.png';
+import trackhero from '../img/trackhero.png';
+import ecomwise from '../img/ecomwise.png';
 
 class Work extends Component {
-    state={
-        show: 0
-    }
-    switchCard=show=>{
-        this.setState({show})
-
+    state = {
+        cardsData: [
+            {
+                title: 'Project Transfers',
+                imageName: booking,
+                url: 'http://waseem-transfers.web.app/',
+                des: 'This is a project about Bus Reservation.'
+            },
+            {
+                title: 'Project Ecomwise',
+                imageName: ecomwise,
+                url: 'http://waseem-transfers.web.app/',
+                des: 'This is a project about Bus Reservation.'
+            },
+            {
+                title: 'Project Trackhero',
+                imageName: trackhero,
+                url: 'http://waseem-transfers.web.app/',
+                des: 'This is a project about Bus Reservation.'
+            },
+            {
+                title: 'Project Natours',
+                imageName: natours,
+                url: 'https://waseemtalib.github.io/natours/',
+                des: 'This project is all about Tours which contain classic hover effects.'
+            },
+            {
+                title: 'Project Dice-Game',
+                imageName: dice,
+                url: 'https://waseemtalib.github.io/dice-game/',
+                des: 'This is a project of displaying something like books, movies or any other category.'
+            },
+            {
+                title: 'Project Budgety',
+                imageName: budgety,
+                url: 'https://waseemtalib.github.io/Budgety/',
+                des: 'This is a project of displaying something like books, movies or any other category.'
+            },
+            {
+                title: 'Project Drum-Kit',
+                imageName: drum,
+                url: 'https://waseemtalib.github.io/drum-kit/',
+                des: 'This is a project of displaying something like books, movies or any other category.'
+            },
+            {
+                title: 'Project Trillo',
+                imageName: trillo,
+                url: 'https://waseemtalib.github.io/Trillo/',
+                des: 'This project uses flexBox which makes it creative and attractive with its look.'
+            },
+            {
+                title: 'Project Simon-Game',
+                imageName: simon,
+                url: 'https://waseemtalib.github.io/simon-game/',
+                des: 'This project uses flexBox which makes it creative and attractive with its look.'
+            },
+            {
+                title: 'Project Smash Codes',
+                imageName: smash,
+                url: 'http://smash-codes.web.app/',
+                des: 'This project uses flexBox which makes it creative and attractive with its look.'
+            },
+        ]
     }
     render() {
-
-        
+        const { cardsData } = this.state;
         return (
             <div className="container work" id="work">
-            <h1>Work</h1>
-            {/* <div className="work-category">
-                <button className={`${this.state.show === 0 ? "active" : ""}`} id="designing" onClick={()=>this.switchCard(0)} >Web Designing</button>
-                <button className={`${this.state.show === 1 ? "active" : ""}`} id="animation" onClick={()=>this.switchCard(1)}>Web Animation</button>
-                <button className={`${this.state.show === 2 ? "active" : ""}`} id="project" onClick={()=>this.switchCard(2)}>Web Projects</button>
-            </div> */}
-
-            {/* <div className={`category-animation ${this.state.show === 0 ? "showCategory" : 'hideCategory'}`}> */}
-           
-           
-           
-            <div className={`category-animation showCategory`}>
-            <Card title="Project Transfers" imageName={img1} url={'/transfers'} des="This is a project about Bus Reservation."   />
-            <Card title="Project Natours" imageName={img2} url={'/natours/'} des="This project is all about Tours which contain classic hover effects." />
-            <Card title="Project Dice-Game" imageName={img6} url={'/dice-game/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project BookCon" imageName={img3} url={'/bookcon/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Budgety" imageName={img5} url={'/budgety/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Geniversity" imageName={img11} url={'/geniversity/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Drum-Kit" imageName={img7} url={'/drum-kit/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Trillo" imageName={img4} url={'/trillo/'} des="This project uses flexBox which makes it creative and attractive with its look." />
-            <Card title="Project Simon-Game" imageName={img9} url={'/simon-game/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project PSD" imageName={img8} url={'/psd/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Social-Feed" imageName={img10} url={'/social-feed/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Demo Site" imageName={img12} url={'/demo/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Smash Codes" imageName={img14} url={'/smash/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project For Client" imageName={img13} url={'/client/'} des="This is a project of displaying something like books, movies or any other category." />
-            <Card title="Project Venue" imageName={img15} url={'/venue/'} des="This is a project of displaying something like books, movies or any other category." />
+                <h1>Projects</h1>
+                <div className={`category-animation showCategory`}>
+                    {cardsData?.map((card, ind) => (
+                        <Card
+                            key={`key-${ind}`}
+                            title={card.title}
+                            imageName={card.imageName}
+                            url={card.url}
+                            des={card.des}
+                        />
+                    ))}
+                </div>
             </div>
-
-            
-            {/* <div className={`category-animation ${this.state.show === 1 ? "showCategory" : 'hideCategory'}`}>
-            <Card name={img3}  />
-            <Card name={img2}  />
-            </div>
-            <div className={`category-animation ${this.state.show === 2 ? "showCategory" : 'hideCategory'}`}>
-            <Card name={img1}  />
-            <Card name={img2}  />
-            </div> */}
-
-
-        </div>
         );
     }
 }

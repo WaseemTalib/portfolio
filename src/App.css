@@ -71,14 +71,17 @@ header {
 }
 
 @media screen and (max-width: 800px) {
+
     .show-menu-btn,
     .hide-menu-btn {
         display: block;
     }
+
     .fa-bars,
     .fa-times {
         color: #fff
     }
+
     .menu {
         position: fixed;
         display: block;
@@ -93,19 +96,23 @@ header {
         transition: all .4s;
         padding: 50% 0 30% 0
     }
+
     li {
         margin: 0 !important
     }
+
     .menu li a {
         padding: 30px 0;
         display: block;
         color: #fff
     }
+
     .hide-menu-btn {
         position: absolute;
         top: 10px;
         right: 10px
     }
+
     #chk:checked~.menu {
         right: 0
     }
@@ -794,42 +801,53 @@ svg {
     header {
         padding: 10px 0
     }
+
     .cardCss .filledbar {
         width: calc(var(--percentage) * 1%);
     }
+
     .container {
         height: fit-content;
         padding: 0 50px
     }
+
     .cardCss {
         margin: 10px 0;
     }
+
     .cardCss .stroke {
         stroke-dashoffset: calc(440 - (var(--percentage) * 405 / 100));
     }
+
     .cardCss:not(:first-child) {
         margin-left: 0px;
     }
+
     .cardCss:hover~.cardCss {
         left: unset;
     }
+
     .cardCss:hover {
         transform: translateY(0);
     }
+
     .containerCard {
         width: 100%;
         text-align: center;
         flex-wrap: wrap;
         justify-content: space-evenly;
     }
+
     .containerCard .cardCss {
         position: relative;
         left: unset;
     }
+
     .skills {
         height: fit-content;
         padding: 0 30px
     }
+
     .work {
         margin-top: 30px
     }
@@ -839,13 +857,16 @@ svg {
     .showNavbar {
         display: block !important;
     }
+
     .navbar {
         padding: 0 25px !important
     }
+
     .container {
         height: fit-content;
         padding: 25px 25px
     }
+
     .skills h1,
     .about h1,
     .work h1,
@@ -853,54 +874,78 @@ svg {
         font-size: 3rem;
         color: #fff
     }
+
     .about-me-info {
         padding: 20px;
         top: 0
     }
+
     .about img {
         display: none
     }
+
     .about-me-info p {
         font-size: 1rem;
         letter-spacing: 1px
     }
+
     .skills-info {
         font-size: 1.2rem
     }
+
     .tag {
         clip-path: polygon(80% 0%, 100% 50%, 80% 100%, 0% 100%, 0% 50%, 0% 0%);
         width: 180px;
         margin-right: 30px;
     }
+
     .html {
         flex-wrap: nowrap
     }
+
     .profile-img img {
         width: 250px
     }
+
     form input,
     form textarea {
         width: -webkit-fill-available;
     }
+
     .work-category {
         justify-content: center
     }
+
     .work-category button {
         margin: .5rem 0
     }
+
     /* .work a {
         justify-self: normal;
     } */
     .work a img {
         width: 250px
     }
+
     .text h1 {
         font-size: 2rem
     }
+
     .contact-info {
         margin: 20% 0;
         display: flex;
         justify-content: center;
         align-items: center;
     }
+}
+
+#loader {
+    position: absolute;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: scale(2);
+
 }
