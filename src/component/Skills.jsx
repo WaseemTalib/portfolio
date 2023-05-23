@@ -1,7 +1,5 @@
 import React from 'react';
-import htmlImg from '../img/html.png'
 import cssImg from '../img/css.png'
-import bootstrapImg from '../img/bootstrap.png'
 import materializeImg from '../img/materialize.png'
 import jsImg from '../img/js.png'
 import reactImg from '../img/react.png'
@@ -12,34 +10,54 @@ const Skills = () => {
     const skills = [
         {
             type: 'css',
-            percentage: 80,
+            percentage: 85,
             src: cssImg
         },
         {
-            type: 'bootstrap',
-            percentage: 75,
-            src: bootstrapImg
+            type: 'js',
+            percentage: 80,
+            src: jsImg
         },
         {
-            type: 'materialize',
-            percentage: 70,
+            type: 'material ui',
+            percentage: 85,
             src: materializeImg
         },
         {
-            type: 'js',
+            type: 'react',
+            percentage: 85,
+            src: jsImg
+        },
+        {
+            type: 'next js',
             percentage: 75,
             src: jsImg
         },
         {
-            type: 'react',
-            percentage: 65,
+            type: 'vue',
+            percentage: 70,
+            src: jsImg
+        },
+        {
+            type: 'nuxt js',
+            percentage: 70,
             src: reactImg
         },
         {
-            type: 'firebase',
+            type: 'node',
             percentage: 75,
             src: firebaseImg
         },
+        {
+            type: 'express',
+            percentage: 70,
+            src: firebaseImg
+        },
+        {
+            type: 'mongo db',
+            percentage: 75,
+            src: firebaseImg
+        }
     ];
 
     return (
@@ -53,7 +71,6 @@ const Skills = () => {
                 opacity: 1,
                 animationName: "react-reveal - 842603144430929 - 1"
             }}>
-                <NewCard type="html" percentage={90} index={40} src={htmlImg} />
                 {skills?.map((skill, ind) => (
                     <NewCard type={skill.type} key={`key-${ind}`} percentage={skill.percentage} src={skill.src} />
                 ))}

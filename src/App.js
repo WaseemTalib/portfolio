@@ -17,13 +17,13 @@ const App = () => {
   }, [])
 
   return (
-    <>
+    <div className={'body-style'} style={{ overflow: loading ? 'hidden' : 'auto' }}>
       {loading ? (
-        <div id='loader'>
+        <div className='loader'>
           <CirclesWithBar
             height="100"
             width="100"
-            color="#4fa94d"
+            color="#ED5565"
             wrapperStyle={{}}
             wrapperClass=""
             visible={true}
@@ -41,7 +41,7 @@ const App = () => {
             </Switch>
           </Router>
         )}
-    </>
+    </div>
   )
 
 }

@@ -25,16 +25,16 @@ const Header = (props) => {
                     <span className="m-left" style={{marginRight:"10px"}}>b</span>
                     <span>D</span>
                     <span className="m-left">e</span>
-                    <span className="m-left">s</span>
-                    <span className="m-left">i</span>
-                    <span className="m-left">g</span>
-                    <span className="m-left">n</span>
+                    <span className="m-left">v</span>
+                    <span className="m-left">e</span>
+                    <span className="m-left">l</span>
+                    <span className="m-left">o</span>
+                    <span className="m-left">p</span>
                     <span className="m-left">e</span>
                     <span className="m-left">r</span>
-                    <span className="m-left">۔</span>
                 </h1>
 
-                <p>CSS / javaScript / React</p>
+                <p>CSS / JavaScript / React / Vue</p>
                 <a href="#contact">Contact Me</a>
             </div>
             <div className="profile-img">

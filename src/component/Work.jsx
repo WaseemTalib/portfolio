@@ -24,13 +24,13 @@ class Work extends Component {
                 title: 'Project Ecomwise',
                 imageName: ecomwise,
                 url: 'https://ecomwise.ph/',
-                des: 'This is a project about Bus Reservation.'
+                des: 'This is a project about Store and MLM system.'
             },
             {
                 title: 'Project Trackhero',
                 imageName: trackhero,
                 url: 'https://trackhero.com/',
-                des: 'This is a project about Bus Reservation.'
+                des: 'This is a project about events, reservation and vehicles.'
             },
             {
                 title: 'Project Natours',
@@ -42,19 +42,19 @@ class Work extends Component {
                 title: 'Project Dice-Game',
                 imageName: dice,
                 url: 'https://waseemtalib.github.io/dice-game/',
-                des: 'This is a project of displaying something like books, movies or any other category.'
+                des: 'This is a nice and simple dice game.'
             },
             {
                 title: 'Project Budgety',
                 imageName: budgety,
                 url: 'https://waseemtalib.github.io/Budgety/',
-                des: 'This is a project of displaying something like books, movies or any other category.'
+                des: 'This is a project of calculating your credits and debits.'
             },
             {
                 title: 'Project Drum-Kit',
                 imageName: drum,
                 url: 'https://waseemtalib.github.io/drum-kit/',
-                des: 'This is a project of displaying something like books, movies or any other category.'
+                des: 'This is a simple drum playing game.'
             },
             {
                 title: 'Project Trillo',
@@ -66,13 +66,13 @@ class Work extends Component {
                 title: 'Project Simon-Game',
                 imageName: simon,
                 url: 'https://waseemtalib.github.io/simon-game/',
-                des: 'This project uses flexBox which makes it creative and attractive with its look.'
+                des: 'This project is a game which tests your memory.'
             },
             {
                 title: 'Project Smash Codes',
                 imageName: smash,
                 url: 'http://smash-codes.web.app/',
-                des: 'This project uses flexBox which makes it creative and attractive with its look.'
+                des: 'This is a portfolio project of a company.'
             },
         ]
     }
