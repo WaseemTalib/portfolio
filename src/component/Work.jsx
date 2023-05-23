@@ -23,13 +23,13 @@ class Work extends Component {
             {
                 title: 'Project Ecomwise',
                 imageName: ecomwise,
-                url: 'http://waseem-transfers.web.app/',
+                url: 'https://ecomwise.ph/',
                 des: 'This is a project about Bus Reservation.'
             },
             {
                 title: 'Project Trackhero',
                 imageName: trackhero,
-                url: 'http://waseem-transfers.web.app/',
+                url: 'https://trackhero.com/',
                 des: 'This is a project about Bus Reservation.'
             },
             {
