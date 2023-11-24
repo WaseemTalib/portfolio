@@ -340,7 +340,6 @@ function NewFile() {
       </tr>
     </tbody>
   </table>
-  {/* End double column section */}
   <img
     style={{
       width: 600,
