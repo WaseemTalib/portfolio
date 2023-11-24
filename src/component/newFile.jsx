@@ -215,7 +215,6 @@ function NewFile() {
     width={600}
     height={240}
   />
-  {/* Start heading for double column section */}
   <table
     align="center"
     style={{
