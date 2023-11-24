@@ -356,7 +356,6 @@ function NewFile() {
     width={600}
     height={240}
   />
-  {/* Start footer */}
   <table
     align="center"
     style={{
