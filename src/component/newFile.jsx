@@ -201,9 +201,6 @@ function NewFile() {
             <span style={{ msoTextRaise: "15pt", color: "#ffffff" }}>
               Learn more
             </span>
-            {/*[if mso]>
-            <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
-          <![endif]*/}
           </a>
           {/* End button here */}
         </td>
