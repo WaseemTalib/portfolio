@@ -356,7 +356,6 @@ function NewFile() {
     width={600}
     height={240}
   />
-  {/* End image */}
   {/* Start footer */}
   <table
     align="center"
