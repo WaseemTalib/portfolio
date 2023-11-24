@@ -199,7 +199,6 @@ function NewFile() {
               Learn more
             </span>
           </a>
-          {/* End button here */}
         </td>
       </tr>
     </tbody>
