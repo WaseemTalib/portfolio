@@ -104,7 +104,6 @@ function NewFile() {
     width={600}
     height={350}
   />
-  {/* Hero image */}
   <table
     align="center"
     style={{
