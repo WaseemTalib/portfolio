@@ -269,8 +269,6 @@ function NewFile() {
       </tr>
     </tbody>
   </table>
-  {/* End heading for double column section */}
-  {/* Start double column section */}
   <table
     align="center"
     style={{
