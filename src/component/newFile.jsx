@@ -382,7 +382,6 @@ function NewFile() {
           }}
           width={596}
         >
-          {/* Your inverted logo is here */}
           <img
             style={{
               width: 180,
