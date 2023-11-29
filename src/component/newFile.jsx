@@ -511,7 +511,6 @@ function NewFile() {
       </tr>
     </tbody>
   </table>
-  {/* End unsubscribe section */}
 </div>
 
   )
