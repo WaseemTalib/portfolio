@@ -177,7 +177,6 @@ function NewFile() {
               <u>here</u>
             </a>
           </p>
-          {/* Start button (You can change the background colour by the hex code below) */}
           <a
             href="#"
             target="_blank"
