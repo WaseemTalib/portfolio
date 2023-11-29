@@ -104,6 +104,8 @@ function NewFile() {
     width={600}
     height={350}
   />
+  {/* Hero image */}
+  {/* Start single column section */}
   <table
     align="center"
     style={{
@@ -193,14 +195,23 @@ function NewFile() {
               msoPaddingAlt: 0
             }}
           >
+            {/*[if mso]>
+            <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
+          <![endif]*/}
             <span style={{ msoTextRaise: "15pt", color: "#ffffff" }}>
               Learn more
             </span>
+            {/*[if mso]>
+            <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
+          <![endif]*/}
           </a>
+          {/* End button here */}
         </td>
       </tr>
     </tbody>
   </table>
+  {/* End single column section */}
+  {/* Start image */}
   <img
     style={{
       width: 600,
@@ -215,6 +226,8 @@ function NewFile() {
     width={600}
     height={240}
   />
+  {/* End image */}
+  {/* Start heading for double column section */}
   <table
     align="center"
     style={{
@@ -327,6 +340,8 @@ function NewFile() {
       </tr>
     </tbody>
   </table>
+  {/* End double column section */}
+  {/* Start image */}
   <img
     style={{
       width: 600,
@@ -341,6 +356,8 @@ function NewFile() {
     width={600}
     height={240}
   />
+  {/* End image */}
+  {/* Start footer */}
   <table
     align="center"
     style={{
@@ -494,6 +511,7 @@ function NewFile() {
       </tr>
     </tbody>
   </table>
+  {/* End unsubscribe section */}
 </div>
 
   )
