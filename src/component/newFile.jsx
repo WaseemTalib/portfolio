@@ -860,19 +860,12 @@ function NewFile() {
                 </a>
 
               </p>
-
             </td>
-
           </tr>
-
         </tbody>
-
       </table>
-
       {/* End footer */}
-
       {/* Start unsubscribe section */}
-
       <table
         align="center"
         style={{
