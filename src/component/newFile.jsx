@@ -104,6 +104,8 @@ function NewFile() {
     width={600}
     height={350}
   />
+  {/* Hero image */}
+  {/* Start single column section */}
   <table
     align="center"
     style={{
