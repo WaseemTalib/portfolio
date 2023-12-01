@@ -944,63 +944,34 @@ function NewFile() {
               </p>
 
               <p
-
                 style={{
-
                   fontSize: 12,
-
                   lineHeight: 12,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: "normal",
-
                   textDecoration: "none",
-
                   color: "#000000"
-
                 }}
-
               >
-
                 You can{" "}
-
                 <a
-
                   style={{ textDecoration: "underline", color: "#000000" }}
-
                   href="insert-unsubscribe-link-here"
-
                 >
-
                   <u>unsubscribe here</u>
-
                 </a>
-
               </p>
-
               <p
-
                 style={{
-
                   fontSize: 12,
-
                   lineHeight: 12,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: "normal",
-
                   textDecoration: "none",
-
                   color: "#919293",
-
                   marginTop: 30
-
                 }}
-
               >
-
                 Email template built by{" "}
                 <a
                   style={{ textDecoration: "none", color: "#919293" }}
