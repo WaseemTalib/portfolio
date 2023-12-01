@@ -874,29 +874,17 @@ function NewFile() {
       {/* Start unsubscribe section */}
 
       <table
-
         align="center"
-
         style={{
-
           textAlign: "center",
-
           verticalAlign: "top",
-
           width: 600,
-
           maxWidth: 600
-
         }}
-
         width={600}
-
       >
-
         <tbody>
-
           <tr>
-
             <td
               style={{
                 width: 596,
