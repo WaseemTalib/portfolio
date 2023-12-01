@@ -824,41 +824,23 @@ function NewFile() {
               </p>
 
               <p
-
                 style={{
-
                   marginBottom: 0,
-
                   fontSize: 13,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#ffffff"
-
                 }}
-
               >
-
                 <a
-
                   target="_blank"
-
                   style={{ textDecoration: "underline", color: "#ffffff" }}
-
                   href="https://fullsphere.co.uk"
-
                 >
-
                   www.fullsphere.co.uk
-
                 </a>
-
               </p>
             </td>
           </tr>
