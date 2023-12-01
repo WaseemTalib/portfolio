@@ -1002,29 +1002,17 @@ function NewFile() {
               >
 
                 Email template built by{" "}
-
                 <a
-
                   style={{ textDecoration: "none", color: "#919293" }}
-
                   href="https://fullsphere.co.uk"
-
                 >
-
                   <u>FullSphere</u>
-
                 </a>
-
               </p>
-
             </td>
-
           </tr>
-
         </tbody>
-
       </table>
-
     </div>
   )
 
