@@ -918,31 +918,18 @@ function NewFile() {
               width={596}
 
             >
-
               <p
-
                 style={{
-
                   fontSize: 12,
-
                   lineHeight: 12,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: "normal",
-
                   textDecoration: "none",
-
                   color: "#000000"
-
                 }}
-
               >
-
                 Not wanting to receive these emails?
-
               </p>
-
               <p
                 style={{
                   fontSize: 12,
