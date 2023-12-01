@@ -1025,8 +1025,6 @@ function NewFile() {
 
       </table>
 
-      {/* End unsubscribe section */}
-
     </div>
   )
 
