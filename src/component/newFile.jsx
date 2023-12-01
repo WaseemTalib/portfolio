@@ -898,25 +898,15 @@ function NewFile() {
           <tr>
 
             <td
-
               style={{
-
                 width: 596,
-
                 verticalAlign: "top",
-
                 paddingLeft: 30,
-
                 paddingRight: 30,
-
                 paddingTop: 30,
-
                 paddingBottom: 30
-
               }}
-
               width={596}
-
             >
               <p
                 style={{
