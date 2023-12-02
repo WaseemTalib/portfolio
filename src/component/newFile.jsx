@@ -618,11 +618,8 @@ function NewFile() {
                 Vivamus felis velit, iaculis eu eros sed, consequat viverra libero.
 
                 Aliquam ipsum eros, imperdiet eget fermentum eget, cursus a sapien.
-
               </p>
-
             </td>
-
             <td
               style={{
                 width: 252,
