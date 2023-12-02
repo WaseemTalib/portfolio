@@ -800,23 +800,14 @@ function NewFile() {
               />
 
               <p
-
                 style={{
-
                   fontSize: 13,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#ffffff"
-
                 }}
-
               >
                 Address line 1, London, L2 4LN
               </p>
