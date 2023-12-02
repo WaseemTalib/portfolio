@@ -770,35 +770,20 @@ function NewFile() {
               {/* Your inverted logo is here */}
 
               <img
-
                 style={{
-
                   width: 180,
-
                   maxWidth: 180,
-
                   height: 85,
-
                   maxHeight: 85,
-
                   textAlign: "center",
-
                   color: "#ffffff"
-
                 }}
-
                 alt="Logo"
-
                 src="https://fullsphere.co.uk/misc/free-template/images/logo-black-background.jpg"
-
                 align="center"
-
                 width={180}
-
                 height={85}
-
               />
-
               <p
                 style={{
                   fontSize: 13,
