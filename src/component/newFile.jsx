@@ -818,11 +818,8 @@ function NewFile() {
                 }}
 
               >
-
                 Address line 1, London, L2 4LN
-
               </p>
-
               <p
                 style={{
                   marginBottom: 0,
