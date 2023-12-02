@@ -624,29 +624,17 @@ function NewFile() {
             </td>
 
             <td
-
               style={{
-
                 width: 252,
-
                 verticalAlign: "top",
-
                 paddingLeft: 15,
-
                 paddingRight: 30,
-
                 paddingTop: 0,
-
                 paddingBottom: 30,
-
                 textAlign: "center"
-
               }}
-
               width={252}
-
             >
-
               <p
                 style={{
                   fontSize: 15,
