@@ -648,31 +648,18 @@ function NewFile() {
             >
 
               <p
-
                 style={{
-
                   fontSize: 15,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#919293"
-
                 }}
-
               >
-
                 Pellentesque mollis bibendum sollicitudin. Aenean tempor eros at
-
                 risus mollis gravida. Aenean in urna eget elit pretium ultrices eu
-
                 vitae elit.
-
               </p>
             </td>
           </tr>
