@@ -720,31 +720,18 @@ function NewFile() {
       {/* Start footer */}
 
       <table
-
         align="center"
-
         style={{
-
           textAlign: "center",
-
           verticalAlign: "top",
-
           width: 600,
-
           maxWidth: 600,
-
           backgroundColor: "#000000"
-
         }}
-
         width={600}
-
       >
-
         <tbody>
-
           <tr>
-
             <td
               style={{
                 width: 596,
