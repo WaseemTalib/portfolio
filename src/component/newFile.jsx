@@ -688,37 +688,21 @@ function NewFile() {
       {/* Start image */}
 
       <img
-
         style={{
-
           width: 600,
-
           maxWidth: 600,
-
           height: 240,
-
           maxHeight: 240,
-
           textAlign: "center"
-
         }}
-
         alt="Image"
-
         src="https://fullsphere.co.uk/misc/free-template/images/image-3.jpg"
-
         align="center"
-
         width={600}
-
         height={240}
-
       />
-
       {/* End image */}
-
       {/* Start footer */}
-
       <table
         align="center"
         style={{
