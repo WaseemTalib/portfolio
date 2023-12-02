@@ -674,19 +674,12 @@ function NewFile() {
                 vitae elit.
 
               </p>
-
             </td>
-
           </tr>
-
         </tbody>
-
       </table>
-
       {/* End double column section */}
-
       {/* Start image */}
-
       <img
         style={{
           width: 600,
