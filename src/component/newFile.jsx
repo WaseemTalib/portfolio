@@ -746,29 +746,17 @@ function NewFile() {
           <tr>
 
             <td
-
               style={{
-
                 width: 596,
-
                 verticalAlign: "top",
-
                 paddingLeft: 30,
-
                 paddingRight: 30,
-
                 paddingTop: 30,
-
                 paddingBottom: 30
-
               }}
-
               width={596}
-
             >
-
               {/* Your inverted logo is here */}
-
               <img
                 style={{
                   width: 180,
