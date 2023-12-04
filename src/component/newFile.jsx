@@ -528,17 +528,11 @@ function NewFile() {
                 }}
 
               >
-
                 Double column, dolor sit amet
-
               </h1>
-
             </td>
-
           </tr>
-
         </tbody>
-
       </table>
       {/* End heading for double column section */}
       {/* Start double column section */}
