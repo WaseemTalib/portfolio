@@ -612,11 +612,8 @@ function NewFile() {
                   color: "#919293"
 
                 }}
-
               >
-
                 Vivamus felis velit, iaculis eu eros sed, consequat viverra libero.
-
                 Aliquam ipsum eros, imperdiet eget fermentum eget, cursus a sapien.
               </p>
             </td>
