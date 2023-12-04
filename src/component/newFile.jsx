@@ -598,19 +598,12 @@ function NewFile() {
               <p
 
                 style={{
-
                   fontSize: 15,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#919293"
-
                 }}
               >
                 Vivamus felis velit, iaculis eu eros sed, consequat viverra libero.
