@@ -428,37 +428,21 @@ function NewFile() {
       {/* Start image */}
 
       <img
-
         style={{
-
           width: 600,
-
           maxWidth: 600,
-
           height: 240,
-
           maxHeight: 240,
-
           textAlign: "center"
-
         }}
-
         alt="Image"
-
         src="https://fullsphere.co.uk/misc/free-template/images/image-2.jpg"
-
         align="center"
-
         width={600}
-
         height={240}
-
       />
-
       {/* End image */}
-
       {/* Start heading for double column section */}
-
       <table
         align="center"
         style={{
