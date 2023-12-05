@@ -416,17 +416,11 @@ function NewFile() {
               {/* End button here */}
 
             </td>
-
           </tr>
-
         </tbody>
-
       </table>
-
       {/* End single column section */}
-
       {/* Start image */}
-
       <img
         style={{
           width: 600,
