@@ -502,11 +502,8 @@ function NewFile() {
                 paddingBottom: 0
 
               }}
-
               width={596}
-
             >
-
               <h1
                 style={{
                   fontSize: 20,
