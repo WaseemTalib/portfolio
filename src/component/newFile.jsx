@@ -392,19 +392,12 @@ function NewFile() {
                 }}
 
               >
-
                 {/*[if mso]>
-
             <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
-
           <![endif]*/}
-
                 <span style={{ msoTextRaise: "15pt", color: "#ffffff" }}>
-
                   Learn more
-
                 </span>
-
                 {/*[if mso]>
             <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
           <![endif]*/}
