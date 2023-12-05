@@ -406,15 +406,10 @@ function NewFile() {
                 </span>
 
                 {/*[if mso]>
-
             <i style="letter-spacing: 25px; mso-font-width: -100%;">&nbsp;</i>
-
           <![endif]*/}
-
               </a>
-
               {/* End button here */}
-
             </td>
           </tr>
         </tbody>
