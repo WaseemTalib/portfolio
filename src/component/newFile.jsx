@@ -360,37 +360,21 @@ function NewFile() {
               {/* Start button (You can change the background colour by the hex code below) */}
 
               <a
-
                 href="#"
-
                 target="_blank"
-
                 style={{
-
                   backgroundColor: "#000000",
-
                   fontSize: 15,
-
                   lineHeight: 22,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: "normal",
-
                   textDecoration: "none",
-
                   padding: "12px 15px",
-
                   color: "#ffffff",
-
                   borderRadius: 5,
-
                   display: "inline-block",
-
                   msoPaddingAlt: 0
-
                 }}
-
               >
                 {/*[if mso]>
             <i style="letter-spacing: 25px; mso-font-width: -100%; mso-text-raise: 30pt;">&nbsp;</i>
