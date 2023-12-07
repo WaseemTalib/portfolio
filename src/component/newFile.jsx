@@ -318,27 +318,16 @@ function NewFile() {
               </p>
 
               <p
-
                 style={{
-
                   fontSize: 15,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#919293"
-
                 }}
-
               >
-
                 You can download this template{" "}
-
                 <a
                   target="_blank"
                   style={{ textDecoration: "underline", color: "#000000" }}
