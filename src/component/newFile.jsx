@@ -214,33 +214,19 @@ function NewFile() {
       {/* Hero image */}
 
       {/* Start single column section */}
-
       <table
-
         align="center"
-
         style={{
-
           textAlign: "center",
-
           verticalAlign: "top",
-
           width: 600,
-
           maxWidth: 600,
-
           backgroundColor: "#ffffff"
-
         }}
-
         width={600}
-
       >
-
         <tbody>
-
           <tr>
-
             <td
               style={{
                 width: 596,
