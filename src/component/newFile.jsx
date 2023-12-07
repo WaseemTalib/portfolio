@@ -288,35 +288,20 @@ function NewFile() {
               </h1>
 
               <p
-
                 style={{
-
                   fontSize: 15,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 400,
-
                   textDecoration: "none",
-
                   color: "#919293"
-
                 }}
-
               >
-
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam
-
                 mattis ante sed imperdiet euismod. Vivamus fermentum bibendum
-
                 turpis, et tempor dui. Sed vitae lectus egestas, finibus purus ac,
-
                 rutrum mauris.
-
               </p>
-
               <p
                 style={{
                   fontSize: 15,
