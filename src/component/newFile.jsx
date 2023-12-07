@@ -340,25 +340,15 @@ function NewFile() {
                 You can download this template{" "}
 
                 <a
-
                   target="_blank"
-
                   style={{ textDecoration: "underline", color: "#000000" }}
-
                   href="https://fullsphere.co.uk/misc/free-template/html-email-template.zip"
-
                   download="HTML Email Template"
-
                 >
-
                   <u>here</u>
-
                 </a>
-
               </p>
-
               {/* Start button (You can change the background colour by the hex code below) */}
-
               <a
                 href="#"
                 target="_blank"
