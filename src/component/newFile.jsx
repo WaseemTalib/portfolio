@@ -264,29 +264,17 @@ function NewFile() {
             >
 
               <h1
-
                 style={{
-
                   fontSize: 20,
-
                   lineHeight: 24,
-
                   fontFamily: '"Helvetica", Arial, sans-serif',
-
                   fontWeight: 600,
-
                   textDecoration: "none",
-
                   color: "#000000"
-
                 }}
-
               >
-
                 Single column, dolor sit amet
-
               </h1>
-
               <p
                 style={{
                   fontSize: 15,
