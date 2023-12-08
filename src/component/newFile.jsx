@@ -92,31 +92,18 @@ function NewFile() {
       {/* Start container for logo */}
 
       <table
-
         align="center"
-
         style={{
-
           textAlign: "center",
-
           verticalAlign: "top",
-
           width: 600,
-
           maxWidth: 600,
-
           backgroundColor: "#ffffff"
-
         }}
-
         width={600}
-
       >
-
         <tbody>
-
           <tr>
-
             <td
               style={{
                 width: 596,
