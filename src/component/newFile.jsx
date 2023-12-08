@@ -174,15 +174,10 @@ function NewFile() {
             </td>
 
           </tr>
-
         </tbody>
-
       </table>
-
       {/* End container for logo */}
-
       {/* Hero image */}
-
       <img
         style={{
           width: 600,
