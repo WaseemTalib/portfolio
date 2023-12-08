@@ -184,35 +184,20 @@ function NewFile() {
       {/* Hero image */}
 
       <img
-
         style={{
-
           width: 600,
-
           maxWidth: 600,
-
           height: 350,
-
           maxHeight: 350,
-
           textAlign: "center"
-
         }}
-
         alt="Hero image"
-
         src="https://fullsphere.co.uk/misc/free-template/images/hero.jpg"
-
         align="center"
-
         width={600}
-
         height={350}
-
       />
-
       {/* Hero image */}
-
       {/* Start single column section */}
       <table
         align="center"
