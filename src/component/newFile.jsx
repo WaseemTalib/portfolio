@@ -142,37 +142,21 @@ function NewFile() {
               {/* Your logo is here */}
 
               <img
-
                 style={{
-
                   width: 180,
-
                   maxWidth: 180,
-
                   height: 85,
-
                   maxHeight: 85,
-
                   textAlign: "center",
-
                   color: "#ffffff"
-
                 }}
-
                 alt="Logo"
-
                 src="https://fullsphere.co.uk/misc/free-template/images/logo-white-background.jpg"
-
                 align="center"
-
                 width={180}
-
                 height={85}
-
               />
-
             </td>
-
           </tr>
         </tbody>
       </table>
