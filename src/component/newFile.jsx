@@ -84,13 +84,9 @@ function NewFile() {
           </tr>
 
         </tbody>
-
       </table>
-
       {/* Email not displaying correctly */}
-
       {/* Start container for logo */}
-
       <table
         align="center"
         style={{
