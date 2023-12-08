@@ -118,29 +118,17 @@ function NewFile() {
           <tr>
 
             <td
-
               style={{
-
                 width: 596,
-
                 verticalAlign: "top",
-
                 paddingLeft: 0,
-
                 paddingRight: 0,
-
                 paddingTop: 15,
-
                 paddingBottom: 15
-
               }}
-
               width={596}
-
             >
-
               {/* Your logo is here */}
-
               <img
                 style={{
                   width: 180,
