@@ -20,9 +20,14 @@ const Header = (props) => {
                     <span className="name m-left">m</span>
                     <span className="m-left">,</span>
                     <br />
-                    <span>W</span>
+                    <span>F</span>
+                    <span className="m-left">r</span>
+                    <span className="m-left">o</span>
+                    <span className="m-left">n</span>
+                    <span className="m-left">t</span>
                     <span className="m-left">e</span>
-                    <span className="m-left" style={{marginRight:"10px"}}>b</span>
+                    <span className="m-left">n</span>
+                    <span className="m-left" style={{marginRight:"10px"}}>d</span>
                     <span>D</span>
                     <span className="m-left">e</span>
                     <span className="m-left">v</span>
@@ -34,7 +39,7 @@ const Header = (props) => {
                     <span className="m-left">r</span>
                 </h1>
 
-                <p>CSS / JavaScript / React / Vue</p>
+                <p>CSS / JavaScript / React / Next</p>
                 <a href="#contact">Contact Me</a>
             </div>
             <div className="profile-img">
