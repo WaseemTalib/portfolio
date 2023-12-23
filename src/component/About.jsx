@@ -6,7 +6,7 @@ const About = (props) => {
                 <h1>About</h1>
                 <div className="about-me-info">
                     <p>Hey there! My Name is <span> Muhammad Waseem Talib </span> and I'm a Front-End Developer &amp; Designer with an
-                     experience of about 2 years in this field. I can build professional websites for you. Feel free to contact.
+                     experience of about 4 years in this field. I can build professional websites for you. Feel free to contact.
                     I will be your Front-End Designer / Developer.  Available 24/7.
                     </p>
                     <p style={{textAlign: "center"}}>
