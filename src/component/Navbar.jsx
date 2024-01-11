@@ -4,7 +4,6 @@ const Navbar = () => {
     return (
 
         <div className="container navbar">
-
             <header>
                 <div className="logo">
                     <h1>WASEEM</h1>
