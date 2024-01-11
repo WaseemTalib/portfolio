@@ -8,7 +8,6 @@ const Navbar = () => {
                 <div className="logo">
                     <h1>WASEEM</h1>
                 </div>
-
                 <nav style={{padding:"10px 0"}}>
                     <input type="checkbox" id="chk" />
                     <label htmlFor="chk" className="show-menu-btn">
