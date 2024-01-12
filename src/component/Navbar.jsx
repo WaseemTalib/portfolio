@@ -22,8 +22,9 @@ const Navbar = () => {
                         <li><a href="#work">my Projects</a></li>
 
                         <label htmlFor="chk" className="hide-menu-btn">
-                            
+
                             <i className="fa fa-times" aria-hidden="true"></i>
+                            
                         </label>
                     </ul>
                 </nav>
