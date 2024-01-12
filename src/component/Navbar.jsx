@@ -28,8 +28,9 @@ const Navbar = () => {
                         </label>
 
                     </ul>
-                    
+
                 </nav>
+                
             </header>
 
 
