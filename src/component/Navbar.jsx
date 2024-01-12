@@ -14,6 +14,7 @@ const Navbar = () => {
                         <i className="fa fa-bars" aria-hidden="true"></i>
                     </label>
                     <ul className="menu">
+                        
                         <li><a href="#about">about</a></li>
                         <li><a href="#skills">skills</a></li>
                         <li><a href="#work">my Projects</a></li>
