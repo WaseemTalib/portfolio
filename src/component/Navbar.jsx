@@ -26,8 +26,9 @@ const Navbar = () => {
                             <i className="fa fa-times" aria-hidden="true"></i>
 
                         </label>
-                        
+
                     </ul>
+                    
                 </nav>
             </header>
 
