@@ -24,8 +24,9 @@ const Navbar = () => {
                         <label htmlFor="chk" className="hide-menu-btn">
 
                             <i className="fa fa-times" aria-hidden="true"></i>
-                            
+
                         </label>
+                        
                     </ul>
                 </nav>
             </header>
